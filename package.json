@@ -1,0 +1,24 @@
+{
+  "name": "m14-hw11-stallings-michelle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michstallings/m14-hw11-stallings-michelle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michstallings/m14-hw11-stallings-michelle/issues"
+  },
+  "homepage": "https://github.com/michstallings/m14-hw11-stallings-michelle#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
