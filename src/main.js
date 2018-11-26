@@ -40,6 +40,10 @@ const forecast = {
     "id": 0,
     "name": "Mountain View",
     "cod": 200
-}
+};
 
-const weatherWrapper = document.getElementById("wrapper");
+let weatherWrapper = document.getElementById("wrapper");
+
+let currentWeather = document.createTextNode(forecast.weather.description);
+
+weatherWrapper.appendChild(currentWeather);
