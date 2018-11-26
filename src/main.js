@@ -41,3 +41,5 @@ const forecast = {
     "name": "Mountain View",
     "cod": 200
 }
+
+const weatherWrapper = document.getElementById("wrapper");
